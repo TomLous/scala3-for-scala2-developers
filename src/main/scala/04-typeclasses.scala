@@ -73,7 +73,7 @@ object type_classes:
    */
   // given vectorPrettyPrint[A] as ...
 
-  import scala.Eql._ 
+//  import scala.Eql._
 
   /**
    * EXERCISE 8
