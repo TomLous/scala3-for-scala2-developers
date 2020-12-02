@@ -56,7 +56,7 @@ package optional_braces:
    * 
    * Refactor this `if` statement so that it does not utilize curly braces:
    */
-  def conditional = 
+  def conditional =
     if 2 + 2 != 4 then
       throw new IllegalStateException("The universe is broken")
 
@@ -65,7 +65,7 @@ package optional_braces:
    * 
    * Refactor this if/else statement so that it does not utilize curly braces.
    */
-  def conditional2 = 
+  def conditional2 =
     if "Sherlock Holmes".startsWith("Sher") then
       println("He is sure!")
     else
@@ -86,7 +86,7 @@ package optional_braces:
    * 
    * Refactor this method body so that it does not utilize curly braces.
    */
-  def whatIsYourName = 
+  def whatIsYourName =
     println("What is your name?")
     val name = scala.io.StdIn.readLine()
     println(s"Hello, ${name}!")
@@ -179,7 +179,7 @@ package optional_braces:
   end tryItAndCatchItAgain
 
 /*
- * Optional braces apply to other constructs not yet introduced, including enums, givens, and 
+ * Optional braces apply to other constructs not yet introduced, including enums, givens, and
  * extensions! You will learn more about this syntax as these new features are introduced.
  */
 
@@ -196,7 +196,7 @@ package control_flow:
    * 
    * Refactor this `if` statement to eliminate parentheses using the `then` keyword.
    */
-  def conditional(x: Int) = 
+  def conditional(x: Int) =
     if x > 0 then println("Positive")
     else println("Non-positive")
 
